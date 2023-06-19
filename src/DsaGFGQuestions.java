@@ -4,20 +4,16 @@ public class DsaGFGQuestions {
 
     public static void main(String[] args) {
 
-        long[] array = {4, 0, 2, 1, 3};
-        rearrangeArray(array);
+        int[] array = {1, 2, 3, -2, 5};
+        long maxSum = maxSum(array);
 
     }
 
-    private static void rearrangeArray(long[] array) {
-        System.out.println(Arrays.toString(array));
+    private static long maxSum(int[] array) {
 
-        for (int i = 0; i < array.length; i++) {
 
-        }
 
-        System.out.println(Arrays.toString(array));
-
+        return 0;
     }
 
 
