@@ -8,9 +8,7 @@ public class DsaGFGQuestions {
     }
 
     private static int noOfMatchSticks(long N) {
-
-        return (N%5==0)?-1: (int) (N % 5);
-
+        return (N % 5 == 0) ? -1 : (int) (N % 5);
     }
 
 }
