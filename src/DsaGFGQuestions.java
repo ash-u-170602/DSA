@@ -2,13 +2,15 @@ public class DsaGFGQuestions {
 
     public static void main(String[] args) {
 
-        long n = 48;
-        long noOfMatchSticks = noOfMatchSticks(n);
+        long n = 32;
+        System.out.println(noOfMatchSticks(n));
 
     }
 
-    private static int noOfMatchSticks(long n) {
-        return 0;
+    private static int noOfMatchSticks(long N) {
+
+        return (N%5==0)?-1: (int) (N % 5);
+
     }
 
 }

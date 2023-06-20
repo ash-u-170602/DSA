@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="maxSum" />
+    <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="No. of matchsticks">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DsaGFGQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsaGFGQuestions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/mohda/IdeaProjects/New",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mohda/IdeaProjects/New&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.DsaGFGQuestions">
     <configuration name="Arrays1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays1" />
@@ -117,7 +120,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687162893686</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="maxSum">
+      <created>1687247547636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687247547636</updated>
+    </task>
+    <task id="LOCAL-00006" summary="maxSum">
+      <created>1687247639577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687247639577</updated>
+    </task>
+    <task id="LOCAL-00007" summary="No. of matchsticks">
+      <created>1687247665574</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687247665574</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +159,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="rearrangeArray" />
     <MESSAGE value="maxSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="maxSum" />
+    <MESSAGE value="No. of matchsticks" />
+    <option name="LAST_COMMIT_MESSAGE" value="No. of matchsticks" />
   </component>
 </project>
