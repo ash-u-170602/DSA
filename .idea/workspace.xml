@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="No. of matchsticks done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysHard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysHard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsaGFGQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsaGFGQuestions.java" afterDir="false" />
-    </list>
+    <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="Tickets Question" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687249336047</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tickets Question">
+      <created>1687325619652</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687325619652</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +179,7 @@
     <MESSAGE value="maxSum" />
     <MESSAGE value="No. of matchsticks" />
     <MESSAGE value="No. of matchsticks done" />
-    <option name="LAST_COMMIT_MESSAGE" value="No. of matchsticks done" />
+    <MESSAGE value="Tickets Question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tickets Question" />
   </component>
 </project>
