@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class ArraysHard {
 
     public static void main(String[] args) {
