@@ -1,11 +1,35 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class DsaGFGQuestions {
 
     public static void main(String[] args) {
 
-        int[] bills = {5, 5, 10, 10, 20};
-        System.out.println(lemonadeChange(bills));
+        char[] bills = {'A', 'A', 'A', 'B', 'B', 'B'};
+        int k = 2;
+        System.out.println(leastInterval(bills, k));
+    }
+
+    private static int leastInterval(char[] tasks, int k) {
+
+        int[] taskCount = new int[26]; // Assuming only uppercase letters
+        for (char task : tasks) {
+            taskCount[task - 'A']++; // Counting the frequency of each task
+        }
+
+        Arrays.sort(taskCount); // Sort the task counts in ascending order
+
+        int maxCount = taskCount[25]; // Get the count of the task with the highest frequency
+        int idleTime = (maxCount - 1) * k; // Calculate the idle time based on the cooldown period
+
+        // Distribute the remaining tasks into the idle slots
+        for (int i = 24; i >= 0 && taskCount[i] > 0; i--) {
+            idleTime -= Math.min(maxCount - 1, taskCount[i]);
+        }
+
+        idleTime = Math.max(0, idleTime); // Idle time cannot be negative
+
+        return tasks.length + idleTime; // Total time required is the sum of task length and idle time
     }
 
     private static boolean lemonadeChange(int[] bills) {
@@ -27,7 +51,7 @@ public class DsaGFGQuestions {
                 if (count5 > 3) {
                     count5 -= 3;
                     count20++;
-                } else if (count10 > 0 && count5>0) {
+                } else if (count10 > 0 && count5 > 0) {
                     count10--;
                     count5--;
                     count20++;
