@@ -5,10 +5,47 @@ public class DsaGFGQuestions {
 
     public static void main(String[] args) {
 
-        char[] bills = {'A', 'A', 'A', 'B', 'B', 'B'};
-        int k = 2;
-        System.out.println(leastInterval(bills, k));
+        String[] arr = {"abba", "abbb", "abbc", "abbd", "abaa", "abca"};
+        String str = "abbg";
+        int k = 3;
+        System.out.println(klengthpref(arr, str, k));
+
+
     }
+
+
+    private static int klengthpref(String[] arr, String str, int k) {
+
+        StringBuilder temp1 = new StringBuilder();
+
+        if (k<=str.length()) {
+            for (int i = 0; i < k; i++) {
+                temp1.append(str.charAt(i));
+            }
+        }else {
+            for (int i = 0; i < str.length(); i++) {
+                temp1.append(str.charAt(i));
+            }
+        }
+
+        int count = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            StringBuilder temp2 = new StringBuilder();
+
+            for (int j = 0; j < k; j++) {
+                temp2.append(arr[i].charAt(j));
+            }
+            if (temp1.toString().equals(temp2.toString())){
+                count++;
+            }
+
+        }
+
+        return count;
+    }
+
+
 
     private static int leastInterval(char[] tasks, int k) {
 
