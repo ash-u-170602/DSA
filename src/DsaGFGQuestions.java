@@ -5,10 +5,14 @@ public class DsaGFGQuestions {
 
     public static void main(String[] args) {
 
-        String[] arr = {"abba", "abbb", "abbc", "abbd", "abaa", "abca"};
-        String str = "abbg";
-        int k = 3;
-        System.out.println(klengthpref(arr, str, k));
+        int n = 3;
+        int r = 2;
+        System.out.println(nCr(n, r));
+
+
+    }
+
+    private static int nCr(int n, int r) {
 
 
     }
@@ -18,11 +22,11 @@ public class DsaGFGQuestions {
 
         StringBuilder temp1 = new StringBuilder();
 
-        if (k<=str.length()) {
+        if (k <= str.length()) {
             for (int i = 0; i < k; i++) {
                 temp1.append(str.charAt(i));
             }
-        }else {
+        } else {
             for (int i = 0; i < str.length(); i++) {
                 temp1.append(str.charAt(i));
             }
@@ -36,7 +40,7 @@ public class DsaGFGQuestions {
             for (int j = 0; j < k; j++) {
                 temp2.append(arr[i].charAt(j));
             }
-            if (temp1.toString().equals(temp2.toString())){
+            if (temp1.toString().equals(temp2.toString())) {
                 count++;
             }
 
@@ -44,7 +48,6 @@ public class DsaGFGQuestions {
 
         return count;
     }
-
 
 
     private static int leastInterval(char[] tasks, int k) {
