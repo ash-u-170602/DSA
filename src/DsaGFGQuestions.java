@@ -2,11 +2,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class DsaGFGQuestions {
+    private static final int MOD = 1000000007;
 
     public static void main(String[] args) {
 
-        int n = 3;
-        int r = 2;
+        int n = 69;
+        int r = 43;
         System.out.println(nCr(n, r));
 
 
@@ -14,6 +15,21 @@ public class DsaGFGQuestions {
 
     private static int nCr(int n, int r) {
 
+        int[][] dp = new int[n + 1][r + 1];
+
+        // Fill in the base cases
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = 1;
+        }
+
+        // Compute the binomial coefficients
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= r; j++) {
+                dp[i][j] = (dp[i - 1][j - 1] + dp[i - 1][j]) % MOD;
+            }
+        }
+
+        return dp[n][r];
 
     }
 
