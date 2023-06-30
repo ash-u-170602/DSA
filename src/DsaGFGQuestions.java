@@ -10,7 +10,6 @@ public class DsaGFGQuestions {
         int r = 43;
         System.out.println(nCr(n, r));
 
-
     }
 
     private static int nCr(int n, int r) {
