@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="OKAY BHAi">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New/DsaGFGQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/DsaGFGQuestions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsaGFGQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsaGFGQuestions.java" afterDir="false" />
-    </list>
+    <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="OKAY BHAi hogya" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687773297437</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="OKAY BHAi hogya">
+      <created>1687972719085</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687972719085</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +254,8 @@
     <MESSAGE value="potd start" />
     <MESSAGE value="potd done" />
     <MESSAGE value="OKAY BHAi" />
-    <option name="LAST_COMMIT_MESSAGE" value="OKAY BHAi" />
+    <MESSAGE value="OKAY BHAi hogya" />
+    <option name="LAST_COMMIT_MESSAGE" value="OKAY BHAi hogya" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
