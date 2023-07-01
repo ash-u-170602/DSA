@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="OKAY BHAi hogya boht" />
+    <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="okok">
+      <change afterPath="$PROJECT_DIR$/src/LeetcodeDSA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,14 +37,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DsaGFGQuestions">
-    <configuration name="Arrays1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays1" />
-      <module name="New" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LeetcodeDSA">
     <configuration name="ArraysHard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysHard" />
       <module name="New" />
@@ -70,13 +66,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeetcodeDSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetcodeDSA" />
+      <module name="New" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetcodeDSA" />
         <item itemvalue="Application.DsaGFGQuestions" />
         <item itemvalue="Application.ArraysSearchingEasy" />
         <item itemvalue="Application.ArraysHard" />
         <item itemvalue="Application.ArraysMedium" />
-        <item itemvalue="Application.Arrays1" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688148331839</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="okok">
+      <created>1688199796487</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688199796487</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +280,8 @@
     <MESSAGE value="OKAY BHAi" />
     <MESSAGE value="OKAY BHAi hogya" />
     <MESSAGE value="OKAY BHAi hogya boht" />
-    <option name="LAST_COMMIT_MESSAGE" value="OKAY BHAi hogya boht" />
+    <MESSAGE value="okok" />
+    <option name="LAST_COMMIT_MESSAGE" value="okok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
