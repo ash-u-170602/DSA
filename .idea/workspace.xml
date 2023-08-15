@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="leetcode" />
+    <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/src/POTD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New/Arrays1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/Arrays1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New/ArraysHard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/ArraysHard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New/ArraysMedium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/ArraysMedium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New/ArraysSearchingEasy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/ArraysSearchingEasy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New/DsaGFGQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/DsaGFGQuestions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +30,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ash-u-170602&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4a531c36-f96b-467a-89e8-403a1aa2befb" />
+        <option name="url" value="https://github.com/ash-u-170602/DSA.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2EoZyZzNzU7tvpAUprHGMIyiJqG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,20 +61,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/mohda/IdeaProjects/New&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LeetcodeDSA">
+  <component name="RunManager" selected="Application.POTD">
     <configuration name="ArraysHard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysHard" />
-      <module name="New" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraysMedium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysMedium" />
       <module name="New" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,13 +95,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="POTD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POTD" />
+      <module name="New" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeetcodeDSA" />
+        <item itemvalue="Application.POTD" />
         <item itemvalue="Application.DsaGFGQuestions" />
+        <item itemvalue="Application.LeetcodeDSA" />
         <item itemvalue="Application.ArraysSearchingEasy" />
         <item itemvalue="Application.ArraysHard" />
-        <item itemvalue="Application.ArraysMedium" />
       </list>
     </recent_temporary>
   </component>
