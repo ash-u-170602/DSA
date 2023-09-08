@@ -19,7 +19,7 @@ public class LeetcodeDSA {
         }
 
 
-        return null;
+        return finalString.toString();
     }
 
 

@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63cdadbd-f6bb-4c4b-9292-45266b73a04f" name="Changes" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/POTD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EzSnippet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrivesSheet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New/Arrays1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/Arrays1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New/ArraysHard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/ArraysHard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New/ArraysMedium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/ArraysMedium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New/ArraysSearchingEasy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/ArraysSearchingEasy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New/DsaGFGQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/DsaGFGQuestions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New/LeetcodeDSA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New/LeetcodeDSA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetcodeDSA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetcodeDSA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +45,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: -1
+  &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2EoZyZzNzU7tvpAUprHGMIyiJqG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,21 +57,15 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/mohda/IdeaProjects/New&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.POTD">
+  <component name="RunManager" selected="Application.StrivesSheet">
     <configuration name="ArraysHard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysHard" />
-      <module name="New" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraysSearchingEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysSearchingEasy" />
       <module name="New" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetcodeDSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetcodeDSA" />
+    <configuration name="EzSnippet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EzSnippet" />
       <module name="New" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,13 +92,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrivesSheet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrivesSheet" />
+      <module name="New" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrivesSheet" />
+        <item itemvalue="Application.EzSnippet" />
+        <item itemvalue="Application.ArraysHard" />
         <item itemvalue="Application.POTD" />
         <item itemvalue="Application.DsaGFGQuestions" />
-        <item itemvalue="Application.LeetcodeDSA" />
-        <item itemvalue="Application.ArraysSearchingEasy" />
-        <item itemvalue="Application.ArraysHard" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688203522398</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1692101128919</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1692101128919</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
