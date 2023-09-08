@@ -4,9 +4,17 @@ import java.util.Arrays;
 public class StrivesSheet {
     public static void main(String[] args) {
 
-        int[] array = {4,5,6,3,2,4,7,45,2,35,54,6};
-        System.out.println(Arrays.toString(selectionSort(array)));
+    }
 
+
+    static int countDigits(int number) {
+
+        int count = 0;
+        while (number != 0) {
+            number = number / 10;
+            count++;
+        }
+        return count;
     }
 
     public static int[] selectionSort(int[] arr) {
@@ -15,7 +23,7 @@ public class StrivesSheet {
 
             int minIndex = i;
             for (int j = i; j < arr.length; j++) {
-                if (arr[j]<arr[minIndex]){
+                if (arr[j] < arr[minIndex]) {
                     minIndex = j;
                 }
             }
