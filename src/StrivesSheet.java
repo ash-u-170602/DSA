@@ -1,11 +1,39 @@
-import java.sql.Array;
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class StrivesSheet {
     public static void main(String[] args) {
+        int[] arr = {3,4,4,2,3,4};
+        selectionSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    static void countElements(int[] array) {
+        HashMap<Integer, Integer> frequencyTable = new HashMap<Integer, Integer>();
+
+        for (int element : array) {
+                frequencyTable.put(element, frequencyTable.getOrDefault(element, 0)+1);
+        }
+
+        System.out.println(frequencyTable);
 
     }
 
+    static void printNWithRec(int N) {
+        if (N == 0) {
+            return;
+        }
+        System.out.println(N);
+        printNWithRec(N - 1);
+    }
+
+    static void printNTimes(String name, int N) {
+        if (N == 0) {
+            return;
+        }
+        System.out.println(name);
+        printNTimes(name, N - 1);
+    }
 
     static int countDigits(int number) {
 
