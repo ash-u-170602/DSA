@@ -7,6 +7,7 @@ public class StrivesSheet {
 
         int[] ad = new int[3];
         ad[0] = 3;
+        int f = Integer.MIN_VALUE;
 
         selectionSort(arr);
         System.out.println(Arrays.toString(arr));
