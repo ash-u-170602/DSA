@@ -4,6 +4,10 @@ import java.util.HashMap;
 public class StrivesSheet {
     public static void main(String[] args) {
         int[] arr = {3,4,4,2,3,4};
+
+        int[] ad = new int[3];
+        ad[0] = 3;
+
         selectionSort(arr);
         System.out.println(Arrays.toString(arr));
     }
