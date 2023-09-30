@@ -1,9 +1,10 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
 public class StrivesSheet {
     public static void main(String[] args) {
-        int[] arr = {3,4,4,2,3,4};
+        int[] arr = {3, 4, 4, 2, 3, 4};
 
         int[] ad = new int[3];
         ad[0] = 3;
@@ -13,11 +14,24 @@ public class StrivesSheet {
         System.out.println(Arrays.toString(arr));
     }
 
+
+    public static int removeDuplicates(ArrayList<Integer> arr, int n) {
+
+        for (int i = 0; i < n-1; i++) {
+            if (arr.get(i) == arr.get(i + 1)){
+                arr.remove(i);
+            }
+        }
+
+        return arr.size();
+
+    }
+
     static void countElements(int[] array) {
         HashMap<Integer, Integer> frequencyTable = new HashMap<Integer, Integer>();
 
         for (int element : array) {
-                frequencyTable.put(element, frequencyTable.getOrDefault(element, 0)+1);
+            frequencyTable.put(element, frequencyTable.getOrDefault(element, 0) + 1);
         }
 
         System.out.println(frequencyTable);
