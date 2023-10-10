@@ -1,17 +1,15 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
 
 public class StrivesSheet {
     public static void main(String[] args) {
-        int[] arr = {3, 4, 4, 2, 3, 4};
 
-        int[] ad = new int[3];
-        ad[0] = 3;
-        int f = Integer.MIN_VALUE;
+        int[] arr= {3,5,6,2};
 
-        selectionSort(arr);
-        System.out.println(Arrays.toString(arr));
+        int[] d = Arrays.stream(arr).sorted().toArray();
+
     }
 
 
