@@ -6,21 +6,73 @@ import java.util.Map;
 public class StrivesSheet {
     public static void main(String[] args) {
 
-        int[] arr= {3,5,6,2};
+        int[] arr = {1,2,3,1,1,1,1};
 
-        int[] d = Arrays.stream(arr).sorted().toArray();
+
+        System.out.println(longestSubArrayWithSumK(arr, 4));
+    }
+
+    public static int longestSubArrayWithSumK(int[] a, long k) {
+        // Write your code here
+
+        int current = 0;
+        int maxTillNow = 0;
+
+        for (int i = 0; i < a.length; i++) {
+            if (current > maxTillNow) {
+                maxTillNow = current;
+            }
+
+            if (current < 0) current = 0;
+
+            current = current + a[i];
+        }
+
+        return maxTillNow;
+    }
+
+    public static void sortColors(int[] nums) {
+
+        int red = 0;
+        int white = 0;
+        int blue = 0;
+
+        for (int num : nums) {
+            if (num == 0) red++;
+            if (num == 1) white++;
+            if (num == 2) blue++;
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            if (red > 0) {
+                nums[i] = 0;
+                red--;
+                continue;
+            }
+
+            if (white > 0) {
+                nums[i] = 1;
+                white--;
+                continue;
+            }
+
+            if (blue > 0) {
+                nums[i] = 2;
+                blue--;
+            }
+        }
 
     }
 
-
     public static int removeDuplicates(ArrayList<Integer> arr, int n) {
 
-        for (int i = 0; i < n-1; i++) {
+        for (int i = 0; i < n - 1; i++) {
             try {
                 if (arr.get(i) == arr.get(i + 1)) {
                     arr.remove(i);
                 }
-            }catch (Exception ignored){}
+            } catch (Exception ignored) {
+            }
         }
 
         return arr.size();
