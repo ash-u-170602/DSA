@@ -1,15 +1,32 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class StrivesSheet {
     public static void main(String[] args) {
 
-        int[] arr = {1,2,3,1,1,1,1};
+        int[] arr = {1, 2, 3, 1, 1, 1, 1};
 
 
-        System.out.println(longestSubArrayWithSumK(arr, 4));
+        System.out.println(superiorElements(arr));
+    }
+
+
+    public static List<Integer> superiorElements(int[] a) {
+
+        ArrayList<Integer> superiorElements = new ArrayList<>();
+
+        int max = Integer.MIN_VALUE;
+
+        for (int i = a.length - 1; i >= 0; i--) {
+
+            if (a[i]>max){
+                superiorElements.add(a[i]);
+            }
+
+            max = Math.max(max, a[i]);
+
+        }
+
+        return superiorElements;
     }
 
     public static int longestSubArrayWithSumK(int[] a, long k) {
@@ -127,16 +144,12 @@ public class StrivesSheet {
                 }
             }
 
-            swap(arr, minIndex, i);
+            Utils.swap(arr, minIndex, i);
 
         }
 
         return arr;
     }
 
-    public static void swap(int[] arr, int a, int b) {
-        int temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
-    }
+
 }
