@@ -3,10 +3,62 @@ import java.util.*;
 public class StrivesSheet {
     public static void main(String[] args) {
 
-        int[] arr = {1, 2, 3, 1, 1, 1, 1};
+        int[][] arr = {{1, 2, 3}, {4, 0, 6}, {7, 8, 9}};
+
+//        System.out.println(arr[0][2]);
 
 
-        System.out.println(superiorElements(arr));
+        System.out.println(Arrays.deepToString(arr));
+        setZeroes(arr);
+        System.out.println(Arrays.deepToString(arr));
+
+        /*
+         [1, 2, 3]
+         [4, 0, 6]
+         [7, 8, 9]
+         */
+
+
+    }
+
+    public static void setZeroes(int[][] matrix) {
+
+        int m = matrix.length;
+        int n = matrix[0].length;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+
+                if (matrix[i][j] == 0) {
+                    for (int y = 0; y < n; y++) {
+                        matrix[j][y] = 0;
+                    }
+                    for (int y = 0; y < m; y++) {
+                        matrix[j][y] = 0;
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+
+    public static int longestConsecutive(int[] nums) {
+        int num = 0;
+
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums.length - 1; i++) {
+
+            if (nums[i + 1] + 1 == nums[i]) {
+                num++;
+            }
+
+        }
+
+        return num + 1;
     }
 
 
@@ -18,7 +70,7 @@ public class StrivesSheet {
 
         for (int i = a.length - 1; i >= 0; i--) {
 
-            if (a[i]>max){
+            if (a[i] > max) {
                 superiorElements.add(a[i]);
             }
 
