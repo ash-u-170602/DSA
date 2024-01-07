@@ -21,6 +21,17 @@ public class StrivesSheet {
 
     }
 
+    public List<List<Integer>> generate(int numRows) {
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+
+        return result;
+
+    }
+
+
     public static void setZeroes(int[][] matrix) {
 
         int m = matrix.length;
