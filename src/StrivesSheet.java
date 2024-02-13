@@ -3,33 +3,69 @@ import java.util.*;
 public class StrivesSheet {
     public static void main(String[] args) {
 
-        int[][] arr = {{1, 2, 3}, {4, 0, 6}, {7, 8, 9}};
-
-//        System.out.println(arr[0][2]);
-
-
-        System.out.println(Arrays.deepToString(arr));
-        setZeroes(arr);
-        System.out.println(Arrays.deepToString(arr));
-
-        /*
-         [1, 2, 3]
-         [4, 0, 6]
-         [7, 8, 9]
-         */
-
+        System.out.println(solveEquation("2x+4=5"));
 
     }
 
-    public List<List<Integer>> generate(int numRows) {
+    public static String solveEquation(String equation) {
 
-        ArrayList<Integer> list = new ArrayList<>();
+        String lhs = equation.split("=")[0];
+        String rhs = equation.split("=")[1];
 
-        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        int numberOfXinLhs = 0;
+        int numberOfXinRhs = 0;
 
-        return result;
+
+
+        return rhs;
+    }
+
+    static int countSatisfiedPersons(int n, int m, ArrayList<Integer> quantity, ArrayList<Integer> need) {
+
+        HashMap<Integer, Integer> fruitMap = new HashMap<>();
+
+        for (int i = 0; i < quantity.size(); i++) {
+            fruitMap.put(i, quantity.get(i));
+        }
+
+        int currentPerson = 0;
+
+        for (int i = 0; i < need.size(); i++) {
+
+            if (fruitMap.get(need.get(i)) > 0) {
+                currentPerson++;
+                fruitMap.put(fruitMap.get(i), fruitMap.get(i) - 1);
+            }
+
+        }
+
+        return currentPerson;
 
     }
+
+//    static String findMagicalNumber(int n, int x) {
+//        // Write your code here.
+//
+//        String num= "1";
+//        for (int i = 0; i<n-1; i++){
+//            num += "0";
+//        }
+//
+//       num += x;
+//
+//        return num;
+//
+//    }
+
+//    public List<List<Integer>> generate(int numRows) {
+//
+//        ArrayList<Integer> list = new ArrayList<>();
+//
+//        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+//
+//        return result;
+//
+//    }
 
 
     public static void setZeroes(int[][] matrix) {
