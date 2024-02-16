@@ -16,9 +16,10 @@ public class StrivesSheet {
         int numberOfXinRhs = 0;
 
 
-
         return rhs;
     }
+
+
 
     static int countSatisfiedPersons(int n, int m, ArrayList<Integer> quantity, ArrayList<Integer> need) {
 
